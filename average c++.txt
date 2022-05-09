@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    float sum=0;
+int arr[10];
+cout<<"enter the marks of students ";
+
+
+for (int i=0 ;i<10;i++){
+    cin>>arr[i];
+    sum=sum+arr[i];
+   
+}
+ float avg=(float)sum/10;
+    cout<<"average of marks is "<<avg<<endl;
+return 0;
+}
